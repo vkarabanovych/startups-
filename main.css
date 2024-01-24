@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px rgb(197, 197, 197) solid;
+    height: 50px;
+  }
+  .header_logo {
+    font-family: "Courier New", Courier, monospace;
+    margin-left: 30px;
+    cursor: default;
+  }
+  .header_navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header_navbar_text {
+    font-family: "Roboto", sans-serif;
+    margin-left: 100px;
+    margin-right: 60px;
+    cursor: pointer;
+    transition: all 1s ease;
+  }
+  .header_navbar_text:hover {
+    color: #0585FC;
+    transform: scale(1.2);
+  }
+  .header_btn {
+    margin-right: 30px;
+    background-color: #0585FC;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 160px;
+    color: white;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s ease;
+  }
+  .header_btn:hover {
+    transform: scale(1.07);
+  }
+  .footer {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5%;
+    background-color: rgb(197, 197, 197);
+  }
+  .footer_investor {
+    margin-left: 4%;
+  }
+  .footer_investor_gtext {
+    font-size: 34px;
+    margin-top: 1%;
+    font-family: "roboto", sans-serif;
+  }
+  .footer_investor_ul {
+    margin-left: 3%;
+    width: 190px;
+    font-size: 21px;
+    font-family: "roboto", sans-serif;
+    margin-top: 5px;
+  }
+  .footer_pidpruimec {
+    margin-left: 4%;
+  }
+  .footer_pidpruimec_gtext {
+    font-size: 34px;
+    margin-top: 1%;
+    font-family: "roboto", sans-serif;
+  }
+  .footer_pidpruimec_ul {
+    margin-left: 3%;
+    width: 190px;
+    font-size: 21px;
+    font-family: "roboto", sans-serif;
+    margin-top: 5px;
+  }
+  .footer_pro {
+    margin-left: 4%;
+  }
+  .footer_pro_gtext {
+    font-size: 34px;
+    margin-top: 1%;
+    font-family: "roboto", sans-serif;
+  }
+  .footer_pro_ul {
+    margin-left: 3%;
+    width: 190px;
+    font-size: 21px;
+    font-family: "roboto", sans-serif;
+    margin-top: 5px;
+  }
+  .footer_news {
+    margin-left: 4%;
+  }
+  .footer_news_gtext {
+    cursor: pointer;
+    font-size: 34px;
+    margin-top: 1%;
+    font-family: "roboto", sans-serif;
+  }
+  .footer_news_ul {
+    cursor: pointer;
+    margin-left: 3%;
+    width: 190px;
+    font-size: 21px;
+    font-family: "roboto", sans-serif;
+    margin-top: 5px;
+  }
+  .li {
+    cursor: pointer;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    font-size: 21px;
+    font-family: "roboto", sans-serif;
+  }
+  .li:hover {
+    transform: scale(1.2);
+    color: #0585FC;
+  }
+  .g {
+    color: #0585fc;
+}
